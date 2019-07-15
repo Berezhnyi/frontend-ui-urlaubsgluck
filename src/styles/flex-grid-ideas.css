@@ -60,6 +60,37 @@
 
 .flex-grid .idea-sport-image {
 	background-image: url(../images/ideas-spor2t.png);
+	background-position: center;
+}
+
+.flex-grid .idea-wellness-image {
+	background-image: url(../images/ideas-wellness.png);
+	background-position: center;
+}
+
+.flex-grid .idea-extreme-image {
+	background-image: url(../images/ideas-extreme.png);
+	background-position: right;
+}
+
+.flex-grid .idea-games-image {
+	background-image: url(../images/ideas-games.png);
+	background-position: center;
+}
+
+.flex-grid .idea-culture-image {
+	background-image: url(../images/ideas-culture.png);
+	background-position: center;
+}
+
+.flex-grid .idea-relax-image {
+	background-image: url(../images/ideas-relax.png);
+	background-position: center;
+}
+
+.flex-grid .idea-travel-image {
+	background-image: url(../images/ideas-travel.png);
+	background-position: right;
 }
 
 @media(min-width: 490px) {
