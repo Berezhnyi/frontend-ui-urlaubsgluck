@@ -1,0 +1,110 @@
+/* body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: #eee;
+} */
+
+.flex-grid {
+	width: 300px;
+	display: block;
+	color: #222;
+	padding: 20px;
+	background-color: #fff;
+	margin: 0 auto;
+	font-size: 22px;
+}
+
+.flex-grid .grid-head {
+	padding: 5px;
+	text-align: center;
+}
+
+.flex-grid .grid {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	color: #fff;
+}
+
+.flex-grid .grid-item {
+	background-color: rgb(124, 108, 108);
+	margin: 5px;
+	position: relative;
+	box-sizing: border-box;
+	height: 120px;
+	border-radius: 5px;
+}
+
+.flex-grid .ordinary-element {
+	flex: 1 1 300px;
+}
+
+.flex-grid .big-element {
+	flex: 1 1 300px;
+}
+
+.flex-grid .grid-item a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 2;
+	color: currentColor;
+	text-decoration: none;
+	/* padding-top: 40px; */
+	text-align: center;
+	top: 50%;
+	transform: translate(0, -20%);
+	/* vertical-align: middle; */
+}
+
+.flex-grid .idea-sport-image {
+	background-image: url(../images/ideas-spor2t.png);
+}
+
+@media(min-width: 490px) {
+	.flex-grid {
+		width: 490px;
+	}
+	.flex-grid .grid-item {
+		height: 180px;
+	}
+	.flex-grid .ordinary-element {
+		flex: 1 2 235px;
+	}
+	.flex-grid .big-element {
+		flex: 1 2 486px;
+	}
+}
+
+@media(min-width: 750px) {
+	.flex-grid {
+		width: 750px;
+	}
+	.flex-grid .grid-item {
+		height: 240px;
+		/* margin: 10px; */
+	}
+	.flex-grid .ordinary-element {
+		flex: 1 2 235px;
+	}
+	.flex-grid .big-element {
+		flex: 1 2 486px;
+	}
+}
+
+@media(min-width: 940px) {
+	.flex-grid {
+		width: 940px;
+	}
+	.flex-grid .grid-item {
+		height: 300px;
+		margin: 10px;
+	}
+	.flex-grid .ordinary-element {
+		flex: 1 2 290px;
+	}
+	.flex-grid .big-element {
+		flex: 1 2 604px;
+	}
+}
